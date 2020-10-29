@@ -1,0 +1,181 @@
+body {
+  text-align: center;
+  background-color: #fcf8e8;
+}
+
+.hebrew-body {
+  font-family: 'Assistant', sans-serif;
+}
+
+#home {
+  background-color: #ecdfc8;
+  color: #df7861;
+  margin: 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-header {
+  font-family: 'Amatic SC', cursive;
+  font-size: 4rem;
+}
+
+.phone-number {
+  font-family: 'Secular One', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.head-link {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  color: #df7861;
+  border-color: #df7861;
+  font-weight: bold;
+}
+
+.head-link:hover {
+  color: #fff;
+  background-color: #5c94d0;
+  border-color: #5c94d0;
+}
+
+.mona-image {
+  width: 250px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.services-container {
+  color: #1c2b2d;
+  text-align: right;
+}
+
+.service {
+  padding: 5% 0;
+}
+
+.services-container h1, h3 {
+  font-family: 'Secular One', sans-serif;
+}
+
+.services-container h1 {
+  color: #df7861;
+}
+
+.services-container h3 {
+  color: #df7861;
+  margin-top: 2rem;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+
+.services-container p {
+  line-height: 1.6;
+  font-size: 1.25rem;
+}
+
+.language-image {
+  width: 25%;
+  margin-left: 2rem;
+  float: right;
+}
+
+.giphy {
+  width: 25%;
+}
+
+.student-giphy {
+  float: right;
+  margin-left: 2rem;
+}
+
+.graduation-giphy {
+  float: left;
+}
+
+.contact p {
+  font-family: 'Secular One', sans-serif;
+  font-size: 2rem;
+  color: #5c94d0;
+}
+
+.call-now-text {
+  display: inline-block;
+  animation-name: blink;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+.footer {
+  background-color: #ecdfc8;
+  color: #ecb390;
+  direction: ltr;
+  padding: 1rem 1rem 0.2rem;
+}
+
+@keyframes blink {
+  0% { color: #5c94d0;  }
+  50% { color: #df7861 ;  }
+  100% { color: #5c94d0;  }
+}
+
+.call-now-number {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+@media screen and (min-width: 1504px) {
+  #home {
+    padding: 23px 30%;
+  }
+
+  .services-container {
+    padding: 3% 30%;
+  }
+}
+
+@media screen and (max-width: 1504px) and (min-width: 1009px) {
+  #home {
+    padding: 23px 20%;
+  }
+
+  .services-container {
+    padding: 3% 20%;
+  }
+}
+
+@media screen and (max-width: 1009px) and (min-width: 761px) {
+  #home {
+    padding: 23px 10%;
+  }
+
+  .services-container {
+    padding: 3% 10%;
+  }
+}
+
+@media screen and (max-width: 761px) and (min-width: 750px) {
+  #home {
+    padding: 23px 5%;
+  }
+
+  .services-container {
+    padding: 3% 5%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #home {
+    padding: 23px 1.5%;
+  }
+
+  .services-container {
+    padding: 3% 1.5%;
+  }
+}
