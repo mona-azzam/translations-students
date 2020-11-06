@@ -31,18 +31,14 @@ body {
 }
 
 .head-link {
-  display: block;
-  margin-bottom: 1rem;
-  padding: 0.5rem;
   color: #df7861;
-  border-color: #df7861;
+  font-size: 1.25rem;
   font-weight: bold;
+  text-decoration: underline;
 }
 
-.head-link:hover {
-  color: #fff;
-  background-color: #5c94d0;
-  border-color: #5c94d0;
+.head-link:visited {
+  color: #5c94d0;
 }
 
 .mona-image {

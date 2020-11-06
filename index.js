@@ -1,3 +1,4 @@
 window.onload = function () {
-  $(".footer p").html("&copy; Hadas Kiriati");
+  const year = new Date().getFullYear();
+  $(".footer p").html("&copy; " + year + " Hadas Kiriati");
 }
