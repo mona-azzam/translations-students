@@ -13,6 +13,11 @@ body {
   margin: 0;
 }
 
+.top-container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .center {
   display: flex;
   justify-content: center;
@@ -30,9 +35,13 @@ body {
   font-weight: bold;
 }
 
+.link-p {
+  padding: 5px 0;
+}
+
 .head-link {
   color: #df7861;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -73,11 +82,11 @@ body {
 
 .services-container p {
   line-height: 1.6;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 .language-image {
-  width: 25%;
+  width: 20%;
   margin-left: 2rem;
   float: right;
 }
@@ -126,52 +135,11 @@ body {
   margin-right: 2rem;
 }
 
-@media screen and (min-width: 1504px) {
-  #home {
-    padding: 23px 30%;
+@media screen and (min-width: 768px) {
+  .language-image {
+    width: 15%;
   }
-
-  .services-container {
-    padding: 3% 30%;
-  }
-}
-
-@media screen and (max-width: 1504px) and (min-width: 1009px) {
-  #home {
-    padding: 23px 20%;
-  }
-
-  .services-container {
-    padding: 3% 20%;
-  }
-}
-
-@media screen and (max-width: 1009px) and (min-width: 761px) {
-  #home {
-    padding: 23px 10%;
-  }
-
-  .services-container {
-    padding: 3% 10%;
-  }
-}
-
-@media screen and (max-width: 761px) and (min-width: 750px) {
-  #home {
-    padding: 23px 5%;
-  }
-
-  .services-container {
-    padding: 3% 5%;
-  }
-}
-
-@media screen and (max-width: 750px) {
-  #home {
-    padding: 23px 1.5%;
-  }
-
-  .services-container {
-    padding: 3% 1.5%;
+  .giphy {
+    width: 20%;
   }
 }
