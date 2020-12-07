@@ -117,10 +117,26 @@ body {
   animation-iteration-count: infinite;
 }
 
+#privacy-policy {
+  display: none;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 0.6rem;
+  padding: 20px;
+}
+
+#privacy-policy .fa-times-circle {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#privacy-policy .fa-times-circle:hover {
+  cursor: pointer;
+}
+
 .footer {
   background-color: #ecdfc8;
   color: #ecb390;
-  direction: ltr;
   padding: 1rem 1rem 0.2rem;
 }
 
