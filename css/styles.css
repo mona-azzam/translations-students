@@ -29,12 +29,6 @@ body {
   font-size: 4rem;
 }
 
-.phone-number {
-  font-family: 'Secular One', sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-}
-
 .link-p {
   padding: 5px 0;
 }
@@ -138,6 +132,16 @@ body {
   background-color: #ecdfc8;
   color: #ecb390;
   padding: 1rem 1rem 0.2rem;
+}
+
+.footer .address {
+  text-align: right;
+  color: #df7861;
+}
+
+.footer .address p {
+  font-size: 1.5rem;
+  line-height: 1.2;
 }
 
 @keyframes blink {
