@@ -1,6 +1,6 @@
 window.onload = function () {
   const year = new Date().getFullYear();
-  $(".footer .copyright span").html("&copy; " + year + ' מונא עזאם אקדמיה ע\"י הדס קריתי | ');
+  $(".footer .copyright span").html("&copy; " + year + ' מונא עזאם אקדמיה ע\"י הדס קריתי');
 }
 
 privacyClicked = function() {
